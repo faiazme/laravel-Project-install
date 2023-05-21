@@ -225,6 +225,45 @@ Available commands for the "migrate" namespace:
   migrate:rollback  Rollback the last database migration
   migrate:status    Show the status of each migration
 
+==============================================================================
+                Laravel Logout er jonn eith ui packages er 
+==============================================================================
+
+            <li><a href="{{ route('logout') }}" class="mega-menu" title="Sign Out" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();"><i class="zmdi zmdi-power"></i></a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                    @csrf
+                </form>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
