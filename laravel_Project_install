@@ -238,9 +238,18 @@ Available commands for the "migrate" namespace:
 
 
 
+==============================================================================
+                laravel Mail Setting
+==============================================================================
 
-
-
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=eftyislam30@gmail.com
+MAIL_PASSWORD=rtdwzqxeudgwiqeq
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=eftyislam30@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
 
 
 
