@@ -251,9 +251,13 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=eftyislam30@gmail.com
 MAIL_FROM_NAME="${APP_NAME}"
 
+==============================================================================
+                Laravel Image All Packages or setting 
+==============================================================================
 
+composer require intervention/image   // eta package er name eita diye muloto image install korte hoy laravel e
 
-
+ar ei link e giye baki setting gule     https://image.intervention.io/v2/introduction/installation
 
 
 
