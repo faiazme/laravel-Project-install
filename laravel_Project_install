@@ -73,7 +73,15 @@ php artisan make:model Role -m      diye database or model create korte hobe tha
 model e giye:  
 protected $fillable = [
         'name',  
-    ];
+    ];    
+    
+    or eit ta use kora zabe 
+    /**
+     * The attributes that aren't mass assignable.
+     *
+     * @var array
+     */
+    protected $guarded = [];     // eita dile muloto sob collam er name lekha lage na 
     
     
 tar pore amra database er table er giye 
