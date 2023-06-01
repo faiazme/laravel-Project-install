@@ -267,7 +267,7 @@ composer require intervention/image   // eta package er name eita diye muloto im
 
 ar ei link e giye baki setting gule     https://image.intervention.io/v2/introduction/installation
 
-
+use Intervention\Image\Facades\Image;
 
 
 
