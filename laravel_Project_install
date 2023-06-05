@@ -29,6 +29,15 @@ php artisan config:cache
 
 
 ==============================================================================
+                Larave mail or fomrm e ek sathe page create korte caile ei code 
+==============================================================================
+
+php artisan make:mail ContactFormMail --markdown=admin.contact.contact-form
+
+
+
+
+==============================================================================
                 Larave Error
 ==============================================================================
  image class error =>::   composer require intervention/image
